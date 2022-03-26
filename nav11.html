@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Bootstrap's another Example</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Nesting Button Groups</h1>
+            <div class="btn-group dropdown dropleft float-right">
+                <button type="button" class="btn btn-success">Software Engineering</button>
+                <button type="button" class="btn btn-info">Programming using C</button>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown">Web Technologies</button>
+                    <div class="dropdown-menu ">
+                        <a class="dropdown-item" href="#">HTML</a>
+                        <a class="dropdown-item" href="#">PHP</a>
+                        <a class="dropdown-item" href="#">CSS</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
